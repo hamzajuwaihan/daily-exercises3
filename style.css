@@ -1,0 +1,23 @@
+body{
+    background-color: #ffffcd;
+}
+article {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 15px;
+    border: 1px solid gray;
+  }
+  #dot {
+    border: 1px dotted gray;
+    color: red;
+  }
+  #dot p{
+    border: 1px dotted red;
+  }
+ 
+  .orange{
+    background-color: orange;
+  }
+  .yellow{
+    background-color: yellow;
+  }

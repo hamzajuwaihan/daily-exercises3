@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise #3</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        
+        background-color: #ffc78e;
+        color: green;
+        font-family: sans-serif;
+        font-weight: bold;
+        
+      }
+      img {
+        width: 200px;
+        height: 200px;
+        margin: 10px;
+      }
+      .column {
+        float: left;
+        max-height: 60%;
+        min-height: 20%;
+      }
+      .left {
+        width: 20%;
+      }
+      .right {
+        width: 75%;
+        display: inline;
+      }
+      
+      .row:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      #logo {
+        height: 50px;
+        width: 50px; 
+        margin: 0;
+      }
+      
+      .first-half{
+        min-height: 70vh;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Ricardo's Page</h1>
+    <h2>My Dog</h2>
+    <div class="first-half">
+       <article class="row">
+      <img
+        src="./images/GettyImages-912084898-e1641834261695.jpg"
+        alt="Dog"
+        class="column left"
+      />
+      <p class="column right">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat cum
+        suscipit voluptatum reprehenderit ex accusamus autem recusandae ea
+        nostrum nisi, eum animi sunt magnam in nam ipsum eligendi repudiandae
+        iure? cumque modi, sit deserunt? Corporis eos aliquam dolorum architecto
+        iure
+      </p>
+    </article>
+    <article>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Id harum
+        maiores aliquid obcaecati provident aut, fugit rem optio labore facilis
+        unde eum rerum temporibus! Repellendus fugit modi iure cum quae! Lorem
+        ipsum dolor, sit amet consectetur adipisicing elit. Consequatur
+        consectetur vel assumenda dignissimos a, accusantium consequuntur
+        adipisci iste modi minus totam quas obcaecati? Quam pariatur quibusdam
+        illum nam itaque excepturi dolorum qui sequi. Nobis beatae iste eveniet
+        saepe. Qui facere adipisci aspernatur, sed beatae inventore fugit
+        blanditiis sunt quidem nisi?
+      </p>
+    </article>
+    <hr />
+    </div>
+   
+    <footer>
+      <img src="./images/Screenshot 2022-07-20 210048.png" alt="dog logo" id="logo">
+      <a href="https://www.google.com/">Loe Lobos</a>
+      <span>- my team</span>
+      <p>Back to <a href="https://www.google.com/">Hector's page</a></p>
+      <p><time>01/05/02</time></p>
+    </footer>
+  </body>
+</html>
