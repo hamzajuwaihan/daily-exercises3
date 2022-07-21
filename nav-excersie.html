@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nav Exercise</title>
+    <style>
+      * {
+        margin: 0;
+      }
+      header {
+        background-color: green;
+        text-align: left;
+      }
+      .main li {
+        display: inline-block;
+        color: white;
+        margin: 25px;
+        font-size: xxx-large;
+      }
+      #product {
+        color: orange;
+      }
+      .dropdown {
+        display: block;
+        list-style-type: none;
+        
+      }
+      .dropdown li {
+        margin-bottom: 15px;
+        padding: 15px;
+      }
+      .secondary{
+        color:white;
+        background-color: green;
+        width: 250px;
+        height: 400px;
+        font-size: xx-large;
+        margin-left: 24%;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="main">
+          <li>Home</li>
+          <li>About</li>
+          <li id="product">Products</li>
+          <li>Services</li>
+          <li>Contact</li>
+        </ul>
+        
+      </nav>
+    </header>
+    <div class="secondary">
+        <ul class="dropdown">
+            <li>Engineering</li>
+            <li>Telecom</li>
+            <li>Energy</li>
+            <li>Finance</li>
+            <li>Consultancy</li>
+        </ul>
+    </div>
+  </body>
+</html>
